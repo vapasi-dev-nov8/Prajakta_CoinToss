@@ -7,6 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TossTest {
 
     @Test
+    void isProbabilityOfHeadsAndTailsSame(){
+        Toss tossObj=new Toss();
+
+        assertEquals(tossObj.probabilityOfHead(),tossObj.probabilityOfTails());
+    }
+
+    @Test
     void probabilityOfHeadInOneCoinToss(){
         Toss tossObj=new Toss();
 
