@@ -2,17 +2,17 @@ package com.CoinToss;
 
 public class Toss {
 
-   double head=1;
-   double tails=1;
-   double outcomes=2;
+   double HEAD =1;
+   double TAILS =1;
+   double OUTCOMES =2;
    //int numberOfToss=0;
 
     public  double probabilityOfHead() {
-        return head/outcomes;
+        return HEAD / OUTCOMES;
     }
 
     public  double probabilityOfTails() {
-        return tails/outcomes;
+        return TAILS / OUTCOMES;
     }
 
     public double probabilityOfEventOccurringTogether(){
